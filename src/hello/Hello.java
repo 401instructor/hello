@@ -10,12 +10,16 @@ package hello;
  * @author villa
  */
 public class Hello {
+    
+    public static void print(String msg) {
+        System.out.println(msg);
+    }
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello, hello");
+        print("Hello, hello");
     }
     
 }
